@@ -1,0 +1,29 @@
+;;; Automatically generated on Sat May  5 21:33:31 2012
+;;; Invoked by stesen@stesen-laptop using 23.4.1
+(setq-default kill-ring '(#("run_watch DHCP {
+        pidfile = \"/var/run/dhclient*.pid\"
+}
+
+
+" 0 14 (face \.\.\. fontified t) 14 17 (fontified t) 17 25 (fontified t) 25 32 (face font-lock-variable-name-face fontified t) 32 35 (fontified t) 35 59 (face font-lock-string-face fontified t) 59 60 (fontified t) 60 62 (fontified t) 62 63 (fontified t) 63 64 (fontified t)) #("run_watch VPN {
+        pidfile = \"/var/run/vpnc/pid\"
+}
+" 0 13 (face \.\.\. fontified t) 13 16 (fontified t) 16 24 (fontified t) 24 31 (face font-lock-variable-name-face fontified t) 31 34 (fontified t) 34 53 (face font-lock-string-face fontified t) 53 54 (fontified t) 54 56 (fontified t)) #("
+disk \"/\" {
+	format = \"%free\"
+}
+" 0 1 (fontified t) 1 6 (fontified t face \.\.\.) 6 9 (fontified t face \.\.\.) 9 12 (fontified t) 12 13 (fontified t) 13 19 (face font-lock-variable-name-face fontified t) 19 22 (fontified t) 22 29 (face font-lock-string-face fontified t) 29 30 (fontified t) 30 32 (fontified t)) #("order += \"ipv6\"
+order += \"disk /\"
+" 0 5 (fontified t face \.\.\.) 5 7 (fontified t face font-lock-variable-name-face) 7 9 (fontified t) 9 15 (fontified t face font-lock-string-face) 15 16 (fontified t) 16 21 (fontified t face \.\.\.) 21 23 (fontified t face font-lock-variable-name-face) 23 25 (fontified t) 25 33 (fontified t face font-lock-string-face) 33 34 (fontified t)) #("order += \"run_watch DHCP\"
+order += \"run_watch VPN\"
+" 0 5 (fontified t face \.\.\.) 5 7 (fontified t face font-lock-variable-name-face) 7 9 (fontified t) 9 25 (fontified t face font-lock-string-face) 25 26 (fontified t) 26 31 (fontified t face \.\.\.) 31 33 (fontified t face font-lock-variable-name-face) 33 35 (fontified t) 35 50 (fontified t face font-lock-string-face) 50 51 (fontified t)) "yasnippet"))
+(setq-default session-file-alist '(("~/.config/awesome/rc.lua" 261 nil 1 nil nil 2 (overwrite-mode)) ("~/.i3status.conf" 57 1 1 nil nil 503 (overwrite-mode)) ("~/.i3/config" 4418 4414 1 nil nil 4397 (overwrite-mode))))
+(setq-default file-name-history '("~/.config/awesome/rc.lua" "~/.i3status.conf" "/etc/i3status.conf" "~/.i3/config" "~/.emacs"))
+(setq-default search-ring '("bar"))
+(setq-default Man-topic-history '("i3status"))
+(setq-default command-history '((find-file "/etc/i3status.conf" t) (find-file "~/.i3status.conf" t) (woman nil nil) (shell nil)))
+(setq-default extended-command-history '("woman" "shell"))
+(setq-default hi-lock-face-history '("hi-yellow" "hi-pink" "hi-green" "hi-blue" "hi-black-b" "hi-blue-b" "hi-red-b" "hi-green-b" "hi-black-hb"))
+(setq-default serial-name-history '("/dev/ttyS0"))
+(setq-default serial-speed-history '("9600" "1200" "2400" "4800" "14400" "19200" "28800" "38400" "57600" "115200"))
+(setq-default woman-topic-history '("i3status"))
