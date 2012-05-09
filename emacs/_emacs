@@ -16,8 +16,8 @@
 ;              (setq server-window nil)))
 ;-------------------------------------------------- 
 
-(setq user-full-name "m00194513")
-(setq user-mail-address "m00194513@notesmail.huawei.com")
+(setq user-full-name "stesen")
+(setq user-mail-address "stesenchina@gmail.com")
 (setq bookmark-default-file "~/.emacs.d/.emacs.bmk")
 (setq abbrev-file-name "~/.emacs.d/.abbrev_defs") 
 (setq load-path (cons "~/.emacs.d/elisp" load-path)) 
